@@ -1,17 +1,59 @@
-# e_commerce
+# 🛒 E-Commerce App
 
-A new Flutter project.
+A modern Flutter E-Commerce application built with **Clean Architecture** and **Cubit (BLoC)** for state management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- User Authentication (Login / Register)
+- Home Screen with Categories & Brands
+- Products Listing & Product Details
+- Cart Management (Add / Update / Delete)
+- Wishlist / Favorites
+- Responsive UI
+- Error Handling & Loading States
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗️ Architecture
+
+This project follows **Clean Architecture** principles:
+
+- **core/** → Constants, Utils, Themes, Exceptions
+- **config/** → Dependency Injection
+- **domain/** → Entities, Abstract Repositories, Use Cases
+- **data/** → Repository Implementations & Data Sources
+- **api/** → Remote Data Sources, Models, Mappers, Dio
+- **features/** → UI Layer (Screens + Cubits)
+
+### State Management
+- **Cubit** (flutter_bloc) for business logic and state handling
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter & Dart
+- Cubit / BLoC
+- Dio (Networking)
+- GetIt + Injectable (Dependency Injection)
+- Shared Preferences
+- Clean Architecture
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Menna-Oraby/E-Commerce.git
+cd E-Commerce
+flutter pub get
+flutter run
+
+```
+
+## 👩‍💻 Developer
+
+**Menna Orabi**  
+Flutter Developer
