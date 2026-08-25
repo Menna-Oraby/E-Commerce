@@ -42,7 +42,20 @@ This project follows **Clean Architecture** principles:
 - Clean Architecture
 
 ---
+## 📸 Screenshots
 
+### 🔐 Login
+![Login](screenshots/login.jpeg)
+### 📝 Register
+![Register](screenshots/register.jpeg)
+### 🏠 Home
+![Home](screenshots/home.jpeg)
+### 📦 Products
+![Products](screenshots/product.jpeg)
+### 🛒 Cart
+![Cart](screenshots/cart.jpeg)
+
+---
 ## 🚀 Getting Started
 
 ```bash
@@ -51,7 +64,7 @@ cd E-Commerce
 flutter pub get
 flutter run
 
-```
+---
 
 ## 👩‍💻 Developer
 
