@@ -54,6 +54,8 @@ This project follows **Clean Architecture** principles:
 ![Products](screenshots/product.jpeg)
 ### 🛒 Cart
 ![Cart](screenshots/cart.jpeg)
+### ❤️ Wishlist
+![Wishlist](screenshots/wishlist.jpeg)
 
 ---
 ## 🚀 Getting Started
